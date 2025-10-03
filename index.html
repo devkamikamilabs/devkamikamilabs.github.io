@@ -34,24 +34,31 @@
       </div>
     </section>
 
-   <!-- アプリ紹介セクション -->
+       <!-- アプリ紹介セクション -->
     <section id="apps" class="mb-16">
       <h2 class="text-2xl font-bold mb-6 text-center text-blue-600">開発アプリ</h2>
       <div class="bg-white p-8 rounded-xl shadow-md transform hover:scale-105 transition-transform duration-300">
-        <div class="flex flex-col md:flex-row items-center gap-8">
+        <!-- ▼ここから修正▼ -->
+        <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+          <!-- テキストコンテンツ（左側） -->
+          <div class="flex-grow text-center md:text-left">
             <h3 class="text-2xl font-bold">ChunkReader</h3>
-            <p class="text-gray-600 mt-2 mb-4">
+            <p class="text-gray-600 mt-2">
               英語の多読・速読をサポートするスラッシュリーディング学習アプリです。文章を意味のかたまり（チャンク）ごとに区切って表示することで、英語の語順のまま、直感的に内容を理解するトレーニングができます。
             </p>
+          </div>
+          <!-- ボタンとリンク（右側） -->
+          <div class="flex-shrink-0 mt-6 md:mt-0">
             <div class="flex items-center gap-6">
-                <a href="#" class="inline-block bg-black text-white px-6 py-2 rounded-lg font-semibold hover:bg-gray-800 transition-colors">
-                  <!-- TODO: Google Playのリンクを追加 -->
-                  Google Playで見る (準備中)
-                </a>
-                <a href="chunkreader-privacy.html" class="text-sm text-blue-500 hover:underline">プライバシーポリシー</a>
-              </div>
+              <a href="#" class="inline-block bg-black text-white px-6 py-2 rounded-lg font-semibold hover:bg-gray-800 transition-colors whitespace-nowrap">
+                <!-- TODO: Google Playのリンクを追加 -->
+                Google Playで見る (準備中)
+              </a>
+              <a href="chunkreader-privacy.html" class="text-sm text-blue-500 hover:underline">プライバシーポリシー</a>
+            </div>
           </div>
         </div>
+        <!-- ▲ここまで修正▲ -->
       </div>
     </section>
 
