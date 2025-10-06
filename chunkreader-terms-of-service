@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>利用規約 - ChunkReader - チャンクリーダー</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .terms-content h2 {
+            @apply text-xl font-bold mt-8 mb-4 border-b-2 border-indigo-200 pb-2;
+        }
+        .terms-content p, .terms-content ul {
+            @apply mb-4 text-gray-700 leading-relaxed;
+        }
+        .terms-content ul {
+            @apply list-disc list-inside pl-4;
+        }
+        .terms-content li {
+            @apply mb-2;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <header class="bg-white shadow-sm">
+        <div class="container mx-auto px-6 py-4">
+            <h1 class="text-3xl font-bold text-gray-900">ChunkReader - チャンクリーダー</h1>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-6 py-12">
+        <div class="max-w-4xl mx-auto bg-white p-8 rounded-xl shadow-md">
+            <h1 class="text-3xl font-bold text-center mb-8">利用規約</h1>
+            <div class="terms-content">
+                <p>この利用規約（以下、「本規約」）は、KamiKamiLabs（以下、「当方」）が提供するアプリケーション「ChunkReader - チャンクリーダー」（以下、「本アプリ」）の利用条件を定めるものです。本アプリの利用者（以下、「ユーザー」）は、本規約に同意の上、本アプリを利用するものとします。</p>
+
+                <h2>第1条（適用）</h2>
+                <p>本規約は、ユーザーと当方との間の本アプリの利用に関わる一切の関係に適用されるものとします。</p>
+
+                <h2>第2条（利用登録）</h2>
+                <p>本アプリの利用を希望する者は、本規約に同意の上、Googleサインインを利用してユーザー登録を行うものとします。当方は、不適切と判断した場合には、利用登録を承認しないことがあります。</p>
+
+                <h2>第3条（有料プラン）</h2>
+                <p>本アプリでは、一部の機能を有料で提供するプレミアムプラン（以下、「有料プラン」）を提供します。</p>
+                <ul>
+                    <li>ユーザーは、本規約に同意の上、Google Playが定める決済方法により利用料金を支払うことで、有料プランを利用することができます。</li>
+                    <li>有料プランはサブスクリプション形式であり、解約手続きが行われるまで、定められた期間ごとに自動的に更新されます。</li>
+                    <li>サブスクリプションの解約を希望する場合、ユーザーは更新日の前日までに、Google Playストアの所定のページから手続きを行う必要があります。</li>
+                    <li>当方は、法律で定められている場合を除き、支払い済みの利用料金の返金には応じません。</li>
+                </ul>
+
+                <h2>第4条（禁止事項）</h2>
+                <p>ユーザーは、本アプリの利用にあたり、以下の行為をしてはなりません。</p>
+                <ul>
+                    <li>法令または公序良俗に違反する行為</li>
+                    <li>犯罪行為に関連する行為</li>
+                    <li>本アプリのサーバーまたはネットワークの機能を破壊したり、妨害したりする行為</li>
+                    <li>本アプリのサービスの運営を妨害するおそれのある行為</li>
+                    <li>他のユーザーに関する個人情報等を収集または蓄積する行為</li>
+                    <li>他のユーザーに成りすます行為</li>
+                    <li>当方のサービスに関連して、反社会的勢力に対して直接または間接に利益を供与する行為</li>
+                    <li>当方、他のユーザーまたは第三者の知的財産権、肖像権、プライバシー、名誉その他の権利または利益を侵害する行為</li>
+                    <li>その他、当方が不適切と判断する行為</li>
+                </ul>
+
+                <h2>第5条（知的財産権）</h2>
+                <p>本アプリによって提供される文章、音声、画像、プログラムその他のコンテンツに関する著作権等の知的財産権は、当方または当該コンテンツの提供元である正当な権利者に帰属します。</p>
+
+                <h2>第6条（免責事項）</h2>
+                <ul>
+                    <li>当方は、本アプリに事実上または法律上の瑕疵（安全性、信頼性、正確性、完全性、有効性、特定の目的への適合性、セキュリティなどに関する欠陥、エラーやバグ、権利侵害などを含みます。）がないことを明示的にも黙示的にも保証しておりません。</li>
+                    <li>当方は、本アプリに起因してユーザーに生じたあらゆる損害について一切の責任を負いません。</li>
+                </ul>
+
+                <h2>第7条（サービス内容の変更等）</h2>
+                <p>当方は、ユーザーに通知することなく、本アプリの内容を変更しまたは本アプリの提供を中止することができるものとし、これによってユーザーに生じた損害について一切の責任を負いません。</p>
+
+                <h2>第8条（利用規約の変更）</h2>
+                <p>当方は、必要と判断した場合には、ユーザーに通知することなくいつでも本規約を変更することができるものとします。</p>
+
+                <h2>第9条（準拠法・裁判管轄）</h2>
+                <p>本規約の解釈にあっては、日本法を準拠法とします。本アプリに関して紛争が生じた場合には、水戸地方裁判所を専属的合意管轄とします。</p>
+
+                <h2>第10条（お問い合わせ先）</h2>
+                <p>本規約に関するお問い合わせは、プライバシーポリシーに記載の連絡先までお願いいたします。</p>
+
+                 <p class="mt-8 text-right">
+                    <strong>制定日: 2025年10月6日</strong>
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-gray-800 text-white mt-12">
+        <div class="container mx-auto px-6 py-4 text-center">
+            <p class="mt-2 text-sm text-gray-400">&copy; 2025 KamiKamiLabs. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
