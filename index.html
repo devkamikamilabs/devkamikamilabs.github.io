@@ -1,85 +1,87 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>KamiKamiLabs - Official Website</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Inter', sans-serif;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KamiKamiLabs - Official Website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', 'Noto Sans JP', sans-serif;
+        }
+    </style>
 </head>
-<body class="bg-gray-50 text-gray-800">
+<body class="bg-gray-100 text-gray-800">
 
-  <!-- ヘッダー -->
-  <header class="bg-white shadow-sm">
-    <div class="container mx-auto px-6 py-4">
-      <h1 class="text-3xl font-bold text-gray-900">KamiKamiLabs</h1>
-      <p class="text-gray-600">日々の生活をもっと豊かに</p>
-    </div>
-  </header>
+    <!-- ヘッダー -->
+    <header class="bg-white shadow-md sticky top-0 z-10">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-3xl font-bold text-gray-900">KamiKamiLabs</h1>
+            <nav>
+                <a href="#apps" class="text-gray-600 hover:text-indigo-600 transition-colors">開発アプリ</a>
+            </nav>
+        </div>
+    </header>
 
-  <main class="container mx-auto px-6 py-12">
-    
-    <!-- 事業紹介セクション -->
-    <section id="about" class="mb-16">
-      <div class="bg-white p-8 rounded-xl shadow-md">
-        <h2 class="text-2xl font-bold mb-4 text-center text-blue-600">KamiKamiLabsについて</h2>
-        <p class="text-lg leading-relaxed">
-          KamiKamiLabsは日々の生活を豊かにできるようなアプリケーション、ゲームの製作を行う個人開発ラボです。。
-        </p>
-      </div>
-    </section>
+    <main class="container mx-auto px-6 py-12">
 
-       <!-- アプリ紹介セクション -->
-    <section id="apps" class="mb-16">
-      <h2 class="text-2xl font-bold mb-6 text-center text-blue-600">開発アプリ</h2>
-      <div class="bg-white p-8 rounded-xl shadow-md transform hover:scale-105 transition-transform duration-300">
-        <!-- ▼ここから修正▼ -->
-        <div class="flex flex-col md:flex-row items-center justify-between gap-6">
-          <!-- テキストコンテンツ（左側） -->
-          <div class="flex-grow text-center md:text-left">
-            <h3 class="text-2xl font-bold">ChunkReader</h3>
-            <p class="text-gray-600 mt-2">
-              英語の多読・速読をサポートするスラッシュリーディング学習アプリです。文章を意味のかたまり（チャンク）ごとに区切って表示することで、英語の語順のまま、直感的に内容を理解するトレーニングができます。
-            </p>
-          </div>
-          <!-- ボタンとリンク（右側） -->
-          <div class="flex-shrink-0 mt-6 md:mt-0">
-            <div class="flex items-center gap-6">
-              <a href="#" class="inline-block bg-black text-white px-6 py-2 rounded-lg font-semibold hover:bg-gray-800 transition-colors whitespace-nowrap">
-                <!-- TODO: Google Playのリンクを追加 -->
-                Google Playで見る (準備中)
-              </a>
-              <a href="chunkreader-privacy.html" class="text-sm text-blue-500 hover:underline">プライバシーポリシー</a>
-            </div>
-          </div>
-        </div>
-        <!-- ▲ここまで修正▲ -->
-      </div>
-    </section>
+        <!-- 事業紹介セクション -->
+        <section id="about" class="mb-20 text-center">
+             <h2 class="text-4xl font-bold mb-2">日々の生活をもっと豊かに</h2>
+             <p class="text-lg text-gray-600 leading-relaxed max-w-3xl mx-auto">
+                KamiKamiLabsは、日々の学習や生活を少しでも豊かに、そして楽しくできるようなアプリケーションやゲームを制作する個人開発ラボです。
+             </p>
+        </section>
 
-    <!-- 運営者情報セクション -->
-    <section id="contact">
-      <h2 class="text-2xl font-bold mb-6 text-center text-blue-600">運営者情報</h2>
-      <div class="bg-white p-8 rounded-xl shadow-md text-center">
-        <p class="font-semibold">KamiKamiLabs</p>
-        <p>住所: 東京都渋谷区道玄坂1丁目10番8号渋谷道玄坂東急ビル2F-C</p>
-        <p>お問い合わせ: <a href="mailto:dev.kamikamilabs@gmail.com" class="text-blue-500 hover:underline">dev.kamikamilabs@gmail.com</a></p>
-      </div>
-    </section>
-  </main>
+        <!-- アプリ紹介セクション -->
+        <section id="apps" class="mb-20">
+            <h2 class="text-3xl font-bold mb-8 text-center text-gray-800">開発アプリ</h2>
+            <div class="bg-white p-8 rounded-xl shadow-lg transition-shadow duration-300 hover:shadow-2xl">
+                <div class="flex flex-col md:flex-row items-center gap-8">
+                    <!-- App Icon -->
+                    <div class="flex-shrink-0">
+                        <img src="https://placehold.co/128x128/6366f1/ffffff?text=CR" alt="ChunkReader App Icon" class="w-32 h-32 rounded-3xl shadow-md">
+                    </div>
+                    <!-- App Details -->
+                    <div class="flex-grow text-center md:text-left">
+                        <h3 class="text-3xl font-bold">ChunkReader - チャンクリーダー</h3>
+                        <p class="text-gray-600 mt-3 text-lg">
+                            英語の多読・速読をサポートするスラッシュリーディング学習アプリです。文章を意味のかたまり（チャンク）ごとに区切って表示することで、英語の語順のまま直感的に内容を理解するトレーニングができます。
+                        </p>
+                        <div class="mt-6 flex flex-col sm:flex-row gap-4 items-center justify-center md:justify-start">
+                             <a href="#" class="inline-block bg-black text-white px-8 py-3 rounded-lg font-semibold hover:bg-gray-800 transition-colors whitespace-nowrap text-lg">
+                                 <!-- TODO: Google Playのリンクを追加 -->
+                                 Google Playで見る (準備中)
+                             </a>
+                             <div class="flex gap-4 text-sm text-gray-500">
+                                 <a href="privacy_policy.html" class="hover:underline hover:text-indigo-600">プライバシーポリシー</a>
+                                 <span>/</span>
+                                 <a href="terms_of_service.html" class="hover:underline hover:text-indigo-600">利用規約</a>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  <!-- フッター -->
-  <footer class="bg-gray-800 text-white mt-12">
-    <div class="container mx-auto px-6 py-4 text-center">
-      <p><a href="privacy.html" class="hover:underline">プライバシーポリシー</a></p>
-      <p class="mt-2 text-sm text-gray-400">&copy; 2025 KamiKamiLabs. All rights reserved.</p>
-    </div>
-  </footer>
+        <!-- 運営者情報セクション -->
+        <section id="contact">
+            <h2 class="text-3xl font-bold mb-8 text-center text-gray-800">運営者情報</h2>
+            <div class="bg-white p-8 rounded-xl shadow-lg text-center max-w-2xl mx-auto">
+                <p class="text-xl font-semibold">KamiKamiLabs</p>
+                <p class="mt-4 text-gray-600">住所: 東京都渋谷区道玄坂1丁目10番8号渋谷道玄坂東急ビル2F-C</p>
+                <p class="mt-2 text-gray-600">お問い合わせ: <a href="mailto:dev.kamikamilabs@gmail.com" class="text-indigo-600 hover:underline">dev.kamikamilabs@gmail.com</a></p>
+            </div>
+        </section>
+    </main>
+
+    <!-- フッター -->
+    <footer class="bg-gray-800 text-white mt-16">
+        <div class="container mx-auto px-6 py-6 text-center">
+            <p class="mt-2 text-sm text-gray-400">&copy; 2025 KamiKamiLabs. All rights reserved.</p>
+        </div>
+    </footer>
 
 </body>
 </html>
