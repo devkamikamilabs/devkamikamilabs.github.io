@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +13,7 @@
         }
     </style>
 </head>
+
 <body class="bg-gray-100 text-gray-800">
 
     <!-- ヘッダー -->
@@ -28,10 +30,10 @@
 
         <!-- 事業紹介セクション -->
         <section id="about" class="mb-20 text-center">
-             <h2 class="text-4xl font-bold mb-2">日々の生活をもっと豊かに</h2>
-             <p class="text-lg text-gray-600 leading-relaxed max-w-3xl mx-auto">
+            <h2 class="text-4xl font-bold mb-2">日々の生活をもっと豊かに</h2>
+            <p class="text-lg text-gray-600 leading-relaxed max-w-3xl mx-auto">
                 KamiKamiLabsは、日々の学習や生活を少しでも豊かに、そして楽しくできるようなアプリケーションやゲームを制作する個人開発ラボです。
-             </p>
+            </p>
         </section>
 
         <!-- アプリ紹介セクション -->
@@ -41,7 +43,8 @@
                 <div class="flex flex-col md:flex-row items-center gap-8">
                     <!-- App Icon -->
                     <div class="flex-shrink-0">
-                        <img src="https://placehold.co/128x128/6366f1/ffffff?text=CR" alt="ChunkReader App Icon" class="w-32 h-32 rounded-3xl shadow-md">
+                        <img src="assets/icons/ChunkReader_icon_512.png" alt="ChunkReader App Icon"
+                            class="w-32 h-32 rounded-3xl shadow-md">
                     </div>
                     <!-- App Details -->
                     <div class="flex-grow text-center md:text-left">
@@ -50,16 +53,23 @@
                             英語の多読・速読をサポートするスラッシュリーディング学習アプリです。文章を意味のかたまり（チャンク）ごとに区切って表示することで、英語の語順のまま直感的に内容を理解するトレーニングができます。
                         </p>
                         <div class="mt-6 flex flex-col sm:flex-row gap-4 items-center justify-center md:justify-start">
-                             <a href="#" class="inline-block bg-black text-white px-8 py-3 rounded-lg font-semibold hover:bg-gray-800 transition-colors whitespace-nowrap text-lg">
-                                 <!-- TODO: Google Playのリンクを追加 -->
-                                 Google Playで見る (準備中)
-                             </a>
-                             <div class="flex gap-x-4 gap-y-2 text-sm text-gray-500 flex-wrap justify-center md:justify-start">
-                                 <a href="chunkreader-privacy.html" class="hover:underline hover:text-indigo-600">プライバシーポリシー</a>
-                                 <a href="chunkreader-terms-of-service.html" class="hover:underline hover:text-indigo-600">利用規約</a>
-                                 <!-- ★ここに追加しました -->
-                                 <a href="chunkreader-data-deletion.html" class="hover:underline hover:text-indigo-600 font-semibold">データ削除</a>
-                             </div>
+                            <a href="https://play.google.com/store/apps/details?id=com.kamikamilabs.chunkreader"
+                                target="_blank" rel="noopener noreferrer"
+                                class="inline-flex items-center bg-black text-white px-8 py-3 rounded-lg font-semibold hover:bg-gray-800 transition-colors whitespace-nowrap text-lg">
+                                <img src="assets/icons/ChunkReader_icon_512.png" alt="ChunkReader アイコン"
+                                    class="h-5 w-5 mr-2" />
+                                Google Playで見る
+                            </a>
+                            <div
+                                class="flex gap-x-4 gap-y-2 text-sm text-gray-500 flex-wrap justify-center md:justify-start">
+                                <a href="chunkreader-privacy.html"
+                                    class="hover:underline hover:text-indigo-600">プライバシーポリシー</a>
+                                <a href="chunkreader-terms-of-service.html"
+                                    class="hover:underline hover:text-indigo-600">利用規約</a>
+                                <!-- ★ここに追加しました -->
+                                <a href="chunkreader-data-deletion.html"
+                                    class="hover:underline hover:text-indigo-600 font-semibold">データ削除</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -72,7 +82,8 @@
             <div class="bg-white p-8 rounded-xl shadow-lg text-center max-w-2xl mx-auto">
                 <p class="text-xl font-semibold">KamiKamiLabs</p>
                 <p class="mt-4 text-gray-600">住所: 東京都渋谷区道玄坂1丁目10番8号渋谷道玄坂東急ビル2F-C</p>
-                <p class="mt-2 text-gray-600">お問い合わせ: <a href="mailto:dev.kamikamilabs@gmail.com" class="text-indigo-600 hover:underline">dev.kamikamilabs@gmail.com</a></p>
+                <p class="mt-2 text-gray-600">お問い合わせ: <a href="mailto:dev.kamikamilabs@gmail.com"
+                        class="text-indigo-600 hover:underline">dev.kamikamilabs@gmail.com</a></p>
             </div>
         </section>
     </main>
@@ -85,4 +96,5 @@
     </footer>
 
 </body>
+
 </html>
